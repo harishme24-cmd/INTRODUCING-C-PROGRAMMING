@@ -1,0 +1,47 @@
+#include <stdio.h>
+void main()
+{
+    int m1,m2,m3,m4,m5,tot,avg,rollno,semester;
+    char name,department;
+    printf("Enter the name:");
+    scanf("%s",&name);
+    printf("Enter the department:");
+    scanf("%s",&department);
+    printf("Enter the roll no:");
+    scanf("%d",&rollno);
+    printf("Enter the semester:");
+    scanf("%d",&semester);
+    printf("Enter the m1:");
+    scanf("%d",&m1);
+    printf("Enter the m2:");
+    scanf("%d",&m2);
+    printf("Enter the m3:");
+    scanf("%d",&m3);
+    printf("Enter the m4:");
+    scanf("%d",&m4);
+    printf("Enter the m5:");
+    scanf("%d",&m5);
+    tot=m1+m2+m3+m4+m5;
+    avg=tot/5;
+    printf("Total:%d\n",tot);
+    printf("Average:%d\n",avg);
+    if(tot>250)
+    {
+        if(tot>450)
+        {
+            printf("A grade");
+        }
+        else if(tot>350)
+        {
+            printf("B grade");
+        }
+        else {
+            printf("C grade");
+        }
+    }
+    else{
+        printf("Fail");
+    }
+    
+    
+}

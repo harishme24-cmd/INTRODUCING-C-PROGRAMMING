@@ -1,0 +1,20 @@
+Arithmetic operation:
+#include<stdio.h>
+void main()
+{
+    int a,b,c,d,e,f;
+    printf("Enter the a:");
+    scanf("%d",&a);
+    printf("Enter the b:");
+    scanf("%d",&b);
+    printf("a:%d\n",&a);
+    printf("b:%d\n",&b);
+    c=a+b;
+    d=a-b;
+    e=a*b;
+    f=a/b;
+    printf("Sum:%d\n",c);
+    printf("Sub:%d\n",d);
+    printf("Multi:%d\n",e);
+    printf("Divi:%d\n",f);
+

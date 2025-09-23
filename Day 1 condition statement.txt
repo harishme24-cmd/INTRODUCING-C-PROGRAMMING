@@ -1,0 +1,31 @@
+condition statement:
+#include<stdio.h>
+void main()
+{
+    int mark;
+    printf("Enter the mark:");
+    scanf("%d",&mark);
+    printf("Mark:%d\n",&mark);
+    if(mark>35)
+    {
+        if(mark>85)
+        {
+            printf("A grade");
+        }
+        else if(mark>65)
+        {
+            printf("B grade");
+        }
+        else
+        {
+            printf("C grade");
+        }
+    }
+    else
+    {
+        printf("fail");
+    }
+    
+    
+}
+
